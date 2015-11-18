@@ -72,12 +72,9 @@ window.onerror = function(msg, url, lineNumber) {
         function reportError() {
             if (!errorReported) {
                 errorReported = true;
-				/* fixme
                 var reportUrl = 'http://prototype.moodle.net/mobile/feedback/mmfeedback.php?message=' + encodeURIComponent(msg) +
                                 '&file=' + encodeURIComponent(url) + '&line=' + encodeURIComponent(lineNumber) + '&appv=' +
                                 encodeURIComponent(appVersion) + '&bg=' + (reportInBackground ? 1 : 0);
-								*/
-				var reportUrl = "";
 
                 if (window.device) {
                     reportUrl = reportUrl + '&platform=' + encodeURIComponent(window.device.platform) +
