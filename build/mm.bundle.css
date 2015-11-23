@@ -8083,6 +8083,22 @@ input.mma-files-picker {
   margin: 0;
   width: 100%; }
 
+.mma-forum-discussion-link {
+  text-decoration: none; }
+
+.mma-forum-align-right {
+  justify-content: flex-end; }
+
+.mma-forum-border {
+  border-color: #ddd;
+  border-width: 1px;
+  border-style: solid; }
+
+.mma-forum-textarea {
+  width: 100%;
+  height: 200px;
+  resize: none; }
+
 .mma-mod_choice-user {
   position: relative;
   display: inline-block; }
@@ -8099,22 +8115,6 @@ input.mma-files-picker {
 
 .mma-mod_choice-graph-horizontal {
   height: 50px; }
-
-.mma-forum-discussion-link {
-  text-decoration: none; }
-
-.mma-forum-align-right {
-  justify-content: flex-end; }
-
-.mma-forum-border {
-  border-color: #ddd;
-  border-width: 1px;
-  border-style: solid; }
-
-.mma-forum-textarea {
-  width: 100%;
-  height: 200px;
-  resize: none; }
 
 .mma-imscp-container {
   display: flex;
