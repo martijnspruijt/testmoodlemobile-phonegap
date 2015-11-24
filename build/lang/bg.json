@@ -561,8 +561,8 @@
     "mma.notes.personalnotes": "Лични бележки",
     "mma.notes.publishstate": "Контекст",
     "mma.notes.sitenotes": "Бележки за сайта",
-    "mma.participants.participants": "Участници",
     "mma.notifications.errorgetnotifications": "Грешка при получаването на уведомленията",
     "mma.notifications.notifications": "Уведомления",
-    "mma.notifications.therearentnotificationsyet": "Няма уведомления."
+    "mma.notifications.therearentnotificationsyet": "Няма уведомления.",
+    "mma.participants.participants": "Участници"
 }

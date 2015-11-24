@@ -586,8 +586,8 @@
     "mma.notes.personalnotes": "Anotacions personals",
     "mma.notes.publishstate": "Context",
     "mma.notes.sitenotes": "Anotacions del lloc",
-    "mma.participants.participants": "Participants",
     "mma.notifications.errorgetnotifications": "S'ha produït un error carregant les notificacions",
     "mma.notifications.notifications": "Notificacions",
-    "mma.notifications.therearentnotificationsyet": "No hi ha notificacions"
+    "mma.notifications.therearentnotificationsyet": "No hi ha notificacions",
+    "mma.participants.participants": "Participants"
 }
