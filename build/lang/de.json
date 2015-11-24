@@ -639,12 +639,12 @@
     "mma.mod_forum.subject": "Betreff",
     "mma.mod_imscp.deploymenterror": "Fehler bei IMS Content Package",
     "mma.mod_imscp.showmoduledescription": "Beschreibung anzeigen",
-    "mma.mod_label.label": "Textfeld",
-    "mma.mod_label.taptoview": "Tippen, um das Textfeld anzuzeigen",
     "mma.mod_lti.errorgetlti": "Fehler beim Empfangen der Moduldaten",
     "mma.mod_lti.errorinvalidlaunchurl": "Die Start-URL ist falsch.",
     "mma.mod_lti.launch_url": "Start-URL",
     "mma.mod_lti.launchactivity": "Aktivität starten",
+    "mma.mod_label.label": "Textfeld",
+    "mma.mod_label.taptoview": "Tippen, um das Textfeld anzuzeigen",
     "mma.mod_page.errorwhileloadingthepage": "Fehler beim Laden des Seiteninhalts",
     "mma.mod_resource.errorwhileloadingthecontent": "Fehler beim Laden des Inhalts",
     "mma.mod_resource.openthefile": "Datei öffnen",
@@ -668,8 +668,8 @@
     "mma.notes.publishstate": "Kontext",
     "mma.notes.sitenotes": "Anmerkungen zur Website",
     "mma.notes.userwithid": "Nutzer/in mit ID {{id}}",
+    "mma.participants.participants": "Personen",
     "mma.notifications.errorgetnotifications": "Fehler beim Abrufen von Mitteilungen",
     "mma.notifications.notifications": "Mitteilungen",
-    "mma.notifications.therearentnotificationsyet": "Keine Mitteilungen",
-    "mma.participants.participants": "Personen"
+    "mma.notifications.therearentnotificationsyet": "Keine Mitteilungen"
 }

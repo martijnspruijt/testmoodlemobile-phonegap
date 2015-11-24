@@ -7985,6 +7985,28 @@ input.mma-files-picker {
   opacity: 0;
   outline: none; }
 
+.mma-messages-date {
+  text-align: center;
+  margin-top: 10px; }
+
+.mma-messages-input-inset {
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0; }
+
+.mma-messages-footer-note {
+  color: #444;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  width: 100%; }
+
+.button.mma-messages-clear-search {
+  top: 0px; }
+
+.mma-messages-discussion-container {
+  padding-bottom: 15px; }
+
 /* - User grades table (most of it extracted from MM1)
 -------------------------------------------------------------------------- */
 .mma-grades-table {
@@ -8045,28 +8067,6 @@ input.mma-files-picker {
   .mma-grades-table .leveleven {
     background-color: #fff; }
 
-.mma-messages-date {
-  text-align: center;
-  margin-top: 10px; }
-
-.mma-messages-input-inset {
-  padding-top: 0;
-  padding-left: 0;
-  padding-bottom: 0; }
-
-.mma-messages-footer-note {
-  color: #444;
-  font-size: 14px;
-  text-align: center;
-  margin: 0;
-  width: 100%; }
-
-.button.mma-messages-clear-search {
-  top: 0px; }
-
-.mma-messages-discussion-container {
-  padding-bottom: 15px; }
-
 .mma-chat-notice {
   text-align: center;
   margin-top: 10px; }
@@ -8100,6 +8100,17 @@ input.mma-files-picker {
 .mma-mod_choice-graph-horizontal {
   height: 50px; }
 
+.mma-imscp-container {
+  display: flex;
+  flex-flow: column;
+  height: 100%; }
+
+.mma-imscp-iframe-container {
+  flex: 1 1 auto;
+  position: relative; }
+  .mma-imscp-iframe-container .iframe-wrapper {
+    position: absolute; }
+
 .mma-forum-discussion-link {
   text-decoration: none; }
 
@@ -8115,17 +8126,6 @@ input.mma-files-picker {
   width: 100%;
   height: 200px;
   resize: none; }
-
-.mma-imscp-container {
-  display: flex;
-  flex-flow: column;
-  height: 100%; }
-
-.mma-imscp-iframe-container {
-  flex: 1 1 auto;
-  position: relative; }
-  .mma-imscp-iframe-container .iframe-wrapper {
-    position: absolute; }
 
 .mma-mod_survey-darkbg {
   background-color: #f5f5f5; }
