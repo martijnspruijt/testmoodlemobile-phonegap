@@ -287,6 +287,10 @@ img.mm-media-adapt-width {
     visibility: visible;
   }
 
+#mm-settings-languagelabel {
+  color: $base-color;
+}
+
 // Variables.
 $bar-side-menu-height: 80px !default;
 $bar-side-menu-color: $bar-content-bg !default;
@@ -314,10 +318,6 @@ $bar-side-menu-text-color: $bar-content-text !default;
   top: $bar-side-menu-height;
 }
 
-#mm-settings-languagelabel {
-  color: $base-color;
-}
-
 input.mma-files-picker {
   position: absolute;
   top: 0;
@@ -328,41 +328,6 @@ input.mma-files-picker {
   outline: none;
 }
 
-$mma-messages-date-badge: "stable" !default;
-
-// The date displayed in the list.
-.mma-messages-date {
-
-  text-align: center;
-  margin-top: 10px;
-
-  span {
-    @extend .badge;
-    @extend .badge-#{$mma-messages-date-badge};
-  }
-}
-
-.mma-messages-input-inset {
-    padding-top: 0;
-    padding-left: 0;
-    padding-bottom: 0;
-}
-
-.mma-messages-footer-note {
-    color: $button-light-text;
-    font-size: $font-size-base;
-    text-align: center;
-    margin: 0;
-    width: 100%;
-}
-
-.button.mma-messages-clear-search {
-  top: 0px;
-}
-
-.mma-messages-discussion-container {
-  padding-bottom: 15px;
-}
 /* - User grades table (most of it extracted from MM1)
 -------------------------------------------------------------------------- */
 .mma-grades-table {
@@ -458,6 +423,41 @@ $mma-messages-date-badge: "stable" !default;
   }
 }
 
+$mma-messages-date-badge: "stable" !default;
+
+// The date displayed in the list.
+.mma-messages-date {
+
+  text-align: center;
+  margin-top: 10px;
+
+  span {
+    @extend .badge;
+    @extend .badge-#{$mma-messages-date-badge};
+  }
+}
+
+.mma-messages-input-inset {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.mma-messages-footer-note {
+    color: $button-light-text;
+    font-size: $font-size-base;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.button.mma-messages-clear-search {
+  top: 0px;
+}
+
+.mma-messages-discussion-container {
+  padding-bottom: 15px;
+}
 $mma-chat-notice-badge: "stable" !default;
 
 // The notice displayed in the list.

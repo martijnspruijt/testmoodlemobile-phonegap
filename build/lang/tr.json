@@ -444,7 +444,12 @@
     "mma.mod_choice.responses": "Yanıtlar",
     "mma.mod_choice.savemychoice": "Seçeneğimi kaydet",
     "mma.mod_choice.yourselection": "Seçiminiz",
+    "mma.mod_label.label": "Etiket",
     "mma.mod_imscp.deploymenterror": "İçerik paketi hatası!",
+    "mma.mod_survey.clicktocontinue": "Devam etmek için buraya tıklayın",
+    "mma.mod_survey.ifoundthat": "Gerçekte olan",
+    "mma.mod_survey.ipreferthat": "İstediğim",
+    "mma.mod_survey.responses": "Yanıtlar",
     "mma.mod_forum.addanewdiscussion": "Yeni tartışma konusu ekle",
     "mma.mod_forum.cannotadddiscussion": "Bu foruma tartışma ekleme, grup üyeliği gerektirir.",
     "mma.mod_forum.cannotadddiscussionall": "Tüm katılımcılar için yeni bir tartışma konusu ekleme izniniz yok.",
@@ -457,7 +462,6 @@
     "mma.mod_forum.re": "Ynt:",
     "mma.mod_forum.reply": "Yanıtla",
     "mma.mod_forum.subject": "Mesaj konusu",
-    "mma.mod_label.label": "Etiket",
     "mma.notes.addnewnote": "Yeni not ekle",
     "mma.notes.coursenotes": "Ders notları",
     "mma.notes.eventnotecreated": "Not oluşturuldu",
@@ -468,9 +472,5 @@
     "mma.notes.sitenotes": "Site notları",
     "mma.notifications.notifications": "Bildirimler",
     "mma.notifications.therearentnotificationsyet": "Hiç bildiriminiz yok",
-    "mma.participants.participants": "Katılımcılar",
-    "mma.mod_survey.clicktocontinue": "Devam etmek için buraya tıklayın",
-    "mma.mod_survey.ifoundthat": "Gerçekte olan",
-    "mma.mod_survey.ipreferthat": "İstediğim",
-    "mma.mod_survey.responses": "Yanıtlar"
+    "mma.participants.participants": "Katılımcılar"
 }
