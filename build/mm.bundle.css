@@ -7954,9 +7954,6 @@ img.mm-media-adapt-width {
   /* show the checkmark icon when its checked */
   visibility: visible; }
 
-#mm-settings-languagelabel {
-  color: #000; }
-
 .bar-side-menu {
   border-color: transparent;
   background-color: #f70;
@@ -7975,6 +7972,9 @@ img.mm-media-adapt-width {
 
 .has-side-menu-header {
   top: 80px; }
+
+#mm-settings-languagelabel {
+  color: #000; }
 
 input.mma-files-picker {
   position: absolute;
@@ -8067,6 +8067,22 @@ input.mma-files-picker {
   .mma-grades-table .leveleven {
     background-color: #fff; }
 
+.mma-chat-notice {
+  text-align: center;
+  margin-top: 10px; }
+
+.mma-chat-input-inset {
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0; }
+
+.mma-chat-footer-note {
+  color: #444;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  width: 100%; }
+
 .mma-mod_choice-user {
   position: relative;
   display: inline-block; }
@@ -8083,22 +8099,6 @@ input.mma-files-picker {
 
 .mma-mod_choice-graph-horizontal {
   height: 50px; }
-
-.mma-chat-notice {
-  text-align: center;
-  margin-top: 10px; }
-
-.mma-chat-input-inset {
-  padding-top: 0;
-  padding-left: 0;
-  padding-bottom: 0; }
-
-.mma-chat-footer-note {
-  color: #444;
-  font-size: 14px;
-  text-align: center;
-  margin: 0;
-  width: 100%; }
 
 .mma-forum-discussion-link {
   text-decoration: none; }
