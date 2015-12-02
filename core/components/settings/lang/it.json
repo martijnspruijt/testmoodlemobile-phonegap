@@ -1,6 +1,6 @@
 {
     "about": "Informazioni",
-    "appname": "Ricoh Moodle Mobile {{version}}",
+    "appname": "Moodle Mobile {{version}}",
     "cacheexpirationtime": "Durata cache (millisecondi)",
     "credits": "Riconoscimenti",
     "currentlanguage": "Lingua in uso",

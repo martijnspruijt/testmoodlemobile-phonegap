@@ -1,6 +1,6 @@
 {
     "about": "Относно",
-    "appname": "Ricoh Moodle Мобайл {{version}}",
+    "appname": "Moodle Мобайл {{version}}",
     "cacheexpirationtime": "Продължителност на кеша (милисекунди)",
     "currentlanguage": "Текущ език",
     "deletesitefiles": "Сигурни ли сте, че искате да изтриете изтеглените от този сайт файлове?",
