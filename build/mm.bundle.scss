@@ -507,6 +507,21 @@ $mma-chat-notice-badge: "stable" !default;
   height: 50px;
 }
 
+.mma-imscp-container {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.mma-imscp-iframe-container {
+    flex: 1 1 auto;
+    position: relative;
+    .iframe-wrapper {
+      position: absolute;
+    }
+}
+
+
 .mma-forum-discussion-link {
     text-decoration: none;
 }
@@ -526,21 +541,6 @@ $mma-chat-notice-badge: "stable" !default;
     height: 200px;
     resize: none;
 }
-
-.mma-imscp-container {
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-}
-
-.mma-imscp-iframe-container {
-    flex: 1 1 auto;
-    position: relative;
-    .iframe-wrapper {
-      position: absolute;
-    }
-}
-
 .mma-mod_survey-darkbg {
   background-color: $item-divider-bg;
 }
