@@ -40,10 +40,10 @@ angular.module('mm.core.login', [])
         url: '/sites',
         templateUrl: 'core/components/login/templates/sites.html',
         controller: 'mmLoginSitesCtrl',
-        onEnter: function($state, $mmSitesManager) {
+        onEnter: function($mmLoginHelper, $mmSitesManager) {
             // Skip this page if there are no sites yet.
             $mmSitesManager.hasNoSites().then(function() {
-                $state.go('mm_login.site');
+                $mmLoginHelper.goToAddSite();
             });
         }
     })
@@ -116,7 +116,7 @@ angular.module('mm.core.login', [])
             return;
         }
 
-        if (toState.name.substr(0, 8) === 'redirect') {
+        if (toState.name.substr(0, 8) === 'redirect' || toState.name.substr(0, 15) === 'mm_contentlinks') {
             return;
         } else if ((toState.name.substr(0, 8) !== 'mm_login' || toState.name === 'mm_login.reconnect') && !$mmSite.isLoggedIn()) {
             // We are not logged in.
@@ -163,13 +163,14 @@ angular.module('mm.core.login', [])
                 if ($mmLoginHelper.isSSOLoginNeeded(result.code)) {
                     // SSO. User needs to authenticate in a browser.
                     $mmUtil.showConfirm($translate('mm.login.reconnectssodescription')).then(function() {
-                        $mmLoginHelper.openBrowserForSSOLogin(siteurl);
+                        $mmLoginHelper.openBrowserForSSOLogin(result.siteurl);
                     });
                 } else {
                     var info = $mmSite.getInfo();
                     if (typeof(info) !== 'undefined' && typeof(info.username) !== 'undefined') {
                         $ionicHistory.nextViewOptions({disableBack: true});
-                        $state.go('mm_login.reconnect', {siteurl: siteurl, username: info.username, infositeurl: info.siteurl});
+                        $state.go('mm_login.reconnect',
+                                        {siteurl: result.siteurl, username: info.username, infositeurl: info.siteurl});
                     }
                 }
             });
